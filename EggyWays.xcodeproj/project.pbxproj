@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51AD133E4025183E3ABA032F /* Pods_EggyWays.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A583A0931098B2C4DCEC077 /* Pods_EggyWays.framework */; };
+		72FF16EE2F2B86F000254272 /* EggyWaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF16EC2F2B86F000254272 /* EggyWaysApp.swift */; };
+		72FF16EF2F2B86F000254272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FF16EB2F2B86F000254272 /* Assets.xcassets */; };
+		72FF16FA2F2B870B00254272 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF16F32F2B870B00254272 /* ShapeStyle+Extensions.swift */; };
+		72FF16FB2F2B870B00254272 /* EWLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF16F72F2B870B00254272 /* EWLaunchView.swift */; };
+		72FF16FC2F2B870B00254272 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF16F12F2B870B00254272 /* View+Extensions.swift */; };
+		72FF16FD2F2B870B00254272 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF16F22F2B870B00254272 /* Color+Extensions.swift */; };
+		72FF16FE2F2B870B00254272 /* EWHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF16F52F2B870B00254272 /* EWHomeWebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A4FD80AFE7F4D90A288421C /* Pods-EggyWays.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggyWays.debug.xcconfig"; path = "Target Support Files/Pods-EggyWays/Pods-EggyWays.debug.xcconfig"; sourceTree = "<group>"; };
+		3A583A0931098B2C4DCEC077 /* Pods_EggyWays.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggyWays.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FF16DC2F2B86DC00254272 /* EggyWays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggyWays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FF16EB2F2B86F000254272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72FF16EC2F2B86F000254272 /* EggyWaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggyWaysApp.swift; sourceTree = "<group>"; };
+		72FF16F12F2B870B00254272 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		72FF16F22F2B870B00254272 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		72FF16F32F2B870B00254272 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		72FF16F52F2B870B00254272 /* EWHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWHomeWebView.swift; sourceTree = "<group>"; };
+		72FF16F72F2B870B00254272 /* EWLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWLaunchView.swift; sourceTree = "<group>"; };
+		72FF16FF2F2B875500254272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C32625300E29942D2A88185E /* Pods-EggyWays.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggyWays.release.xcconfig"; path = "Target Support Files/Pods-EggyWays/Pods-EggyWays.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72FF16D92F2B86DC00254272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51AD133E4025183E3ABA032F /* Pods_EggyWays.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72FF16D32F2B86DC00254272 = {
+			isa = PBXGroup;
+			children = (
+				72FF16ED2F2B86F000254272 /* EggyWays */,
+				72FF16DD2F2B86DC00254272 /* Products */,
+				F3297B715D5455CFBD167FCB /* Pods */,
+				FC155828A3692AC374FE1BE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72FF16DD2F2B86DC00254272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72FF16DC2F2B86DC00254272 /* EggyWays.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72FF16ED2F2B86F000254272 /* EggyWays */ = {
+			isa = PBXGroup;
+			children = (
+				72FF16FF2F2B875500254272 /* Info.plist */,
+				72FF16F42F2B870B00254272 /* Extensions */,
+				72FF16F92F2B870B00254272 /* Screens */,
+				72FF16F02F2B86F300254272 /* App */,
+				72FF16EB2F2B86F000254272 /* Assets.xcassets */,
+			);
+			path = EggyWays;
+			sourceTree = "<group>";
+		};
+		72FF16F02F2B86F300254272 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				72FF16EC2F2B86F000254272 /* EggyWaysApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		72FF16F42F2B870B00254272 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				72FF16F12F2B870B00254272 /* View+Extensions.swift */,
+				72FF16F22F2B870B00254272 /* Color+Extensions.swift */,
+				72FF16F32F2B870B00254272 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		72FF16F62F2B870B00254272 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72FF16F52F2B870B00254272 /* EWHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		72FF16F82F2B870B00254272 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72FF16F72F2B870B00254272 /* EWLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		72FF16F92F2B870B00254272 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				72FF16F62F2B870B00254272 /* HomeWebScreen */,
+				72FF16F82F2B870B00254272 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F3297B715D5455CFBD167FCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A4FD80AFE7F4D90A288421C /* Pods-EggyWays.debug.xcconfig */,
+				C32625300E29942D2A88185E /* Pods-EggyWays.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC155828A3692AC374FE1BE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A583A0931098B2C4DCEC077 /* Pods_EggyWays.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72FF16DB2F2B86DC00254272 /* EggyWays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72FF16E82F2B86DF00254272 /* Build configuration list for PBXNativeTarget "EggyWays" */;
+			buildPhases = (
+				F026F90A64BA0BAF462A12AD /* [CP] Check Pods Manifest.lock */,
+				72FF16D82F2B86DC00254272 /* Sources */,
+				72FF16D92F2B86DC00254272 /* Frameworks */,
+				72FF16DA2F2B86DC00254272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggyWays;
+			productName = EggyWays;
+			productReference = 72FF16DC2F2B86DC00254272 /* EggyWays.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72FF16D42F2B86DC00254272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					72FF16DB2F2B86DC00254272 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 72FF16D72F2B86DC00254272 /* Build configuration list for PBXProject "EggyWays" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72FF16D32F2B86DC00254272;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 55;
+			productRefGroup = 72FF16DD2F2B86DC00254272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72FF16DB2F2B86DC00254272 /* EggyWays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72FF16DA2F2B86DC00254272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FF16EF2F2B86F000254272 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F026F90A64BA0BAF462A12AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EggyWays-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72FF16D82F2B86DC00254272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FF16EE2F2B86F000254272 /* EggyWaysApp.swift in Sources */,
+				72FF16FA2F2B870B00254272 /* ShapeStyle+Extensions.swift in Sources */,
+				72FF16FB2F2B870B00254272 /* EWLaunchView.swift in Sources */,
+				72FF16FC2F2B870B00254272 /* View+Extensions.swift in Sources */,
+				72FF16FD2F2B870B00254272 /* Color+Extensions.swift in Sources */,
+				72FF16FE2F2B870B00254272 /* EWHomeWebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72FF16E62F2B86DF00254272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72FF16E72F2B86DF00254272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		72FF16E92F2B86DF00254272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4FD80AFE7F4D90A288421C /* Pods-EggyWays.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EggyWays/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Eggy Ways";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voloshchukproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		72FF16EA2F2B86DF00254272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32625300E29942D2A88185E /* Pods-EggyWays.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EggyWays/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Eggy Ways";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voloshchukproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72FF16D72F2B86DC00254272 /* Build configuration list for PBXProject "EggyWays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FF16E62F2B86DF00254272 /* Debug */,
+				72FF16E72F2B86DF00254272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72FF16E82F2B86DF00254272 /* Build configuration list for PBXNativeTarget "EggyWays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72FF16E92F2B86DF00254272 /* Debug */,
+				72FF16EA2F2B86DF00254272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72FF16D42F2B86DC00254272 /* Project object */;
+}
